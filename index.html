@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+    </head>
+    <body>
+       <script>
+        // 1.function defination
+        // proper naming convention
+        // i.e Function name are always camelcase
+        function myFunction(x,y){   
+            //  x and y are formal arguments/parameter
+            return x+y;
+        }
+        // function calling
+        let result=myFunction(10,30);
+        console.log(result);
+        // function arguments
+        let r2 = myFunction(10,myFunction(10,30));
+        console.log(r2);
+
+        let r3= myFunction(20,myFunction(20,myFunction(20,(myFunction(40,40)))));
+        console.log(r3);
+       </script>
+        
+        <script src="" async defer></script>
+    </body>
+</html>
+
+<!-- function may return values
+values:
+int
+float
+string
+
+var x = ramayan;
+7 byte to store in memory
+
+A statemetn/instruction always terminated by semi-colon -->
